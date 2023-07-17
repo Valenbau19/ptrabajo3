@@ -1,0 +1,71 @@
+/* Estilos para la página */
+
+ header {
+    background-color: #000000;
+    color: rgb(87, 126, 209);
+    padding: 20px;
+  }
+  body{
+    background-image:url("IMG/imagen.jpg.webp") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .imagen1{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  table,
+  th,
+  td {
+      border: 1px solid;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #59dbf1;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  h1{
+    font-weight: bolder;
+  
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  li{
+    font-size:25px;
+  }
